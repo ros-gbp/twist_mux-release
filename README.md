@@ -1,3 +1,26 @@
+## twist_mux (melodic) - 3.1.2-1
+
+The packages in the `twist_mux` repository were released into the `melodic` distro by running `/usr/local/bin/bloom-release --track melodic --rosdistro melodic twist_mux` on `Thu, 18 Aug 2022 22:00:29 -0000`
+
+The `twist_mux` package was released.
+
+Version of package(s) in repository `twist_mux`:
+
+- upstream repository: https://github.com/ros-teleop/twist_mux.git
+- release repository: https://github.com/ros-gbp/twist_mux-release.git
+- rosdistro version: `3.1.1-1`
+- old version: `3.1.1-1`
+- new version: `3.1.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## twist_mux (rolling) - 4.1.0-1
 
 The packages in the `twist_mux` repository were released into the `rolling` distro by running `/usr/local/bin/bloom-release --track rolling --rosdistro rolling twist_mux --edit` on `Fri, 26 Nov 2021 08:18:54 -0000`
