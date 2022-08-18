@@ -2,16 +2,17 @@
 Changelog for package twist_mux
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-4.1.0 (2021-11-26)
+3.1.2 (2022-08-18)
 ------------------
-* Cleanup parameter warnings & cpplint (`#32 <https://github.com/ros-teleop/twist_mux/issues/32>`_)
-* Update maintainer and license tag
-* Contributors: Stephen Street, Bence Magyar
+* Install joystick_relay.py with catkin_install_python (`#37 <https://github.com/ros-teleop/twist_mux/issues/37>`_)
+* Some more logical operator fixes
+* Use standard logical or operator
+* Contributors: Bence Magyar, Tobias Fischer, Wolfgang Merkt
 
-4.0.0 (2021-06-16)
+3.1.1 (2020-06-02)
 ------------------
-* Foxy migration (`#25 <https://github.com/ros-teleop/twist_mux/issues/25>`_)
-* Contributors: Victor Lopez
+* Bump CMake version to avoid CMP0048
+* Contributors: Bence Magyar
 
 3.1.0 (2018-06-25)
 ------------------

@@ -19,21 +19,26 @@
  * @author Siegfried Gevatter
  */
 
-#include <ros/ros.h>
-#include <twist_mux/twist_mux.h>
+#ifndef UTILS_H
+#define UTILS_H
 
-int
-main(int argc, char *argv[])
+// This could be taken from #include <boost/algorithm/clamp.hpp>
+// but it seems that all versions of Boost have it.
+
+/**
+ * @brief Clamp a value to the range [min, max]
+ * @param x Value
+ * @param min Min value of the range [min, max]
+ * @param max Max value of the range [min, max]
+ * @return Value clamped to the range [min, max]
+ */
+template<typename T>
+static T clamp(T x, T min, T max)
 {
-  ros::init(argc, argv, "twist_mux");
-
-  twist_mux::TwistMux mux;
-
-  while (ros::ok())
-  {
-    ros::spin();
-  }
-
-  return EXIT_SUCCESS;
+       if (  x < min) x = min;
+  else if (max <   x) x = max;
+  return x;
 }
+
+#endif // UTILS_H
 
